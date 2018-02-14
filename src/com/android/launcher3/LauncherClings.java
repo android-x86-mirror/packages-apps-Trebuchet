@@ -147,7 +147,7 @@ class LauncherClings implements OnClickListener {
         mCollectHwInfo = (CheckBox) content.findViewById(R.id.collect_hw_info);
         mCollectAppsUsage = (CheckBox) content.findViewById(R.id.collect_apps_usage);
         mCollectHwInfo.setChecked(true);
-        mCollectAppsUsage.setChecked(true);
+        mCollectAppsUsage.setChecked(false);
 
         if (TAG_CROP_TOP_AND_SIDES.equals(content.getTag())) {
             Drawable bg = new BorderCropDrawable(mLauncher.getResources().getDrawable(R.drawable.cling_bg),
